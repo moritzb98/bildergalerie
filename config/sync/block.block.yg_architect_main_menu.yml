@@ -1,4 +1,4 @@
-uuid: 3f44a7dd-0ae9-416d-a95c-c44d5b23f503
+uuid: eb35b61e-e27b-4515-9e40-8e4492792f6d
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ _core:
 id: yg_architect_main_menu
 theme: yg_architect
 region: primary_menu
-weight: 0
+weight: -7
 provider: null
 plugin: 'system_menu_block:main'
 settings:
@@ -22,5 +22,5 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 1
+  depth: 0
 visibility: {  }

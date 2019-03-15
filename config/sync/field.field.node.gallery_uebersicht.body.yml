@@ -1,0 +1,22 @@
+uuid: 822cab11-aae2-42aa-9d77-19030fc865ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.gallery_uebersicht
+  module:
+    - text
+id: node.gallery_uebersicht.body
+field_name: body
+entity_type: node
+bundle: gallery_uebersicht
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

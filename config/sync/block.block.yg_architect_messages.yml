@@ -1,4 +1,4 @@
-uuid: 1f902e1c-a3cf-416a-934b-a3d87c5acae2
+uuid: f1e835f1-a564-4b05-999a-125c6dc80327
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: yg_architect_messages
 theme: yg_architect
 region: highlighted
-weight: 0
+weight: -4
 provider: null
 plugin: system_messages_block
 settings:

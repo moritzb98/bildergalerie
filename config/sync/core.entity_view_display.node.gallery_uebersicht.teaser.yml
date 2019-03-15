@@ -1,17 +1,17 @@
-uuid: 9e9cdce4-51f6-4c7a-86ea-70dd7f5c9c06
+uuid: 03ae3646-b4f5-455f-8923-682940242b0b
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.gallery.body
-    - node.type.gallery
+    - field.field.node.gallery_uebersicht.body
+    - node.type.gallery_uebersicht
   module:
     - text
     - user
-id: node.gallery.teaser
+id: node.gallery_uebersicht.teaser
 targetEntityType: node
-bundle: gallery
+bundle: gallery_uebersicht
 mode: teaser
 content:
   body:

@@ -1,4 +1,4 @@
-uuid: 1538b651-d124-460a-b346-a924684f73df
+uuid: 2b542d3d-0250-48f9-8dda-27955e5f3fec
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: yg_architect_local_tasks
 theme: yg_architect
 region: content
-weight: -40
+weight: -6
 provider: null
 plugin: local_tasks_block
 settings:

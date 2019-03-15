@@ -1,4 +1,4 @@
-uuid: 39f0b869-8266-4aac-a107-2c274e04c4a5
+uuid: 2acd1248-a52e-4d89-8b5d-68d6895740a9
 langcode: en
 status: true
 dependencies:
@@ -9,8 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: Gallery
-type: gallery
+name: gallery_tier
+type: gallery_tier
 description: ''
 help: ''
 new_revision: false

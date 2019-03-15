@@ -1,38 +1,38 @@
-uuid: 6ab3eee4-e258-4c5a-b99b-e63265a28dd1
+uuid: 83e8c263-d0ca-4e8e-ae49-943aea653a54
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_gallery
-    - node.type.gallery
+    - field.storage.node.field_gallery_tier
+    - node.type.gallery_tier
   module:
     - image
-id: node.gallery.field_gallery
-field_name: field_gallery
+id: node.gallery_tier.field_gallery_tier
+field_name: field_gallery_tier
 entity_type: node
-bundle: gallery
-label: gallery
+bundle: gallery_tier
+label: gallery_tier
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
   alt_field: true
   alt_field_required: true
   title_field: false
   title_field_required: false
-  max_resolution: ''
-  min_resolution: ''
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null
     height: null
-  file_directory: '[date:custom:Y]-[date:custom:m]'
-  max_filesize: ''
   handler: 'default:file'
   handler_settings: {  }
 field_type: image

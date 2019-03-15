@@ -1,4 +1,4 @@
-uuid: 1736fc3e-0c97-4e8a-9dcc-0a3803626f27
+uuid: 6d8d5c0e-9148-49de-9cb7-a7aab52d108a
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ _core:
 id: yg_architect_tools
 theme: yg_architect
 region: highlighted
-weight: 0
+weight: -3
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

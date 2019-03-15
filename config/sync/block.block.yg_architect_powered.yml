@@ -1,4 +1,4 @@
-uuid: af814962-06c6-49a3-bd8a-a93765eb0aa1
+uuid: 7c077601-e28f-4dff-a648-62bfe3461e6c
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: yg_architect_powered
 theme: yg_architect
 region: highlighted
-weight: 10
+weight: -2
 provider: null
 plugin: system_powered_by_block
 settings:

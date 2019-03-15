@@ -1,4 +1,4 @@
-uuid: 5a99f0c2-52ed-4777-bf41-5644f4d9ef40
+uuid: 7bc4ae44-c903-42ae-926b-5df3fe097da0
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: yg_architect_help
 theme: yg_architect
 region: content
-weight: -30
+weight: -5
 provider: null
 plugin: help_block
 settings:

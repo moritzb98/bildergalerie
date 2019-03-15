@@ -1,13 +1,13 @@
-uuid: 81d64c24-344f-485c-b1e5-dd46e7e4996d
+uuid: 80ae5a4c-9b3f-4c07-8187-9ce07c629e60
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.gallery
-id: node.gallery.promote
+    - node.type.gallery_uebersicht
+id: node.gallery_uebersicht.promote
 field_name: promote
 entity_type: node
-bundle: gallery
+bundle: gallery_uebersicht
 label: 'Promoted to front page'
 description: ''
 required: false

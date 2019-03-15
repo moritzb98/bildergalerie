@@ -1,0 +1,39 @@
+uuid: b0891d58-61ec-42ca-99b1-510b1ca24d14
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery_landschaft.body
+    - field.field.node.gallery_landschaft.field_gallery_land
+    - node.type.gallery_landschaft
+  module:
+    - image
+    - text
+    - user
+id: node.gallery_landschaft.default
+targetEntityType: node
+bundle: gallery_landschaft
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_gallery_land:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

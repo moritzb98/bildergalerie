@@ -4,3 +4,12 @@ linkedin: 'https://linkedin.com'
 dribbble: '#'
 _core:
   default_config_hash: QpNfOeq0XvAQC7-Fb2GVgNyQTGgwTS8IXz7JdFOBsy8
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 1
+favicon:
+  use_default: 1

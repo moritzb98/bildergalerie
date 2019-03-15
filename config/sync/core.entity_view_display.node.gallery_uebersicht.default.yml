@@ -1,18 +1,18 @@
-uuid: 30f8e323-625c-427a-8f37-76dbf4d3efea
+uuid: 0ae41239-ae75-4a60-9f38-f5f613bf6be8
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.gallery.body
-    - field.field.node.gallery.field_gallery
-    - node.type.gallery
+    - field.field.node.gallery_uebersicht.body
+    - field.field.node.gallery_uebersicht.field_gallery_uebersicht
+    - node.type.gallery_uebersicht
   module:
     - image
     - text
     - user
-id: node.gallery.default
+id: node.gallery_uebersicht.default
 targetEntityType: node
-bundle: gallery
+bundle: gallery_uebersicht
 mode: default
 content:
   body:
@@ -22,7 +22,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_gallery:
+  field_gallery_uebersicht:
     weight: 102
     label: above
     settings:

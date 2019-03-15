@@ -1,0 +1,38 @@
+uuid: da6e22b8-0909-40ac-8f66-78b114ae9b12
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gallery_land
+    - node.type.gallery_landschaft
+  module:
+    - image
+id: node.gallery_landschaft.field_gallery_land
+field_name: field_gallery_land
+entity_type: node
+bundle: gallery_landschaft
+label: gallery_land
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'png gif jpg jpeg'
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

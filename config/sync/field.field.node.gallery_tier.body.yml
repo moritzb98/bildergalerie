@@ -1,16 +1,16 @@
-uuid: 08352204-bc02-4792-820b-af9f28933dbd
+uuid: d08942fe-9567-4c7a-a517-4e906ee1b871
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.gallery
+    - node.type.gallery_tier
   module:
     - text
-id: node.gallery.body
+id: node.gallery_tier.body
 field_name: body
 entity_type: node
-bundle: gallery
+bundle: gallery_tier
 label: Body
 description: ''
 required: false

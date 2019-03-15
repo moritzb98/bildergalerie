@@ -1,19 +1,19 @@
-uuid: 77e55daf-d438-4890-9d4e-8717579fd23c
+uuid: 3e235ef7-0cae-4d82-b9e7-b4bed73af7f1
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.gallery.body
-    - field.field.node.gallery.field_gallery
+    - field.field.node.gallery_tier.body
+    - field.field.node.gallery_tier.field_gallery_tier
     - image.style.thumbnail
-    - node.type.gallery
+    - node.type.gallery_tier
   module:
     - image
     - path
     - text
-id: node.gallery.default
+id: node.gallery_tier.default
 targetEntityType: node
-bundle: gallery
+bundle: gallery_tier
 mode: default
 content:
   body:
@@ -31,7 +31,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_gallery:
+  field_gallery_tier:
     weight: 122
     settings:
       progress_indicator: throbber

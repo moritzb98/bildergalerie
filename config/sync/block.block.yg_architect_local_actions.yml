@@ -1,4 +1,4 @@
-uuid: 78adb595-6712-4c47-8281-39da2c911ea1
+uuid: bb252005-b26d-4351-aa68-6f184c0f382a
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: yg_architect_local_actions
 theme: yg_architect
 region: content
-weight: -20
+weight: -1
 provider: null
 plugin: local_actions_block
 settings:

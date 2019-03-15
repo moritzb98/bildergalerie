@@ -1,0 +1,39 @@
+uuid: 776ab892-7053-4296-b65f-7caab4188560
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery_tier.body
+    - field.field.node.gallery_tier.field_gallery_tier
+    - node.type.gallery_tier
+  module:
+    - image
+    - text
+    - user
+id: node.gallery_tier.default
+targetEntityType: node
+bundle: gallery_tier
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_gallery_tier:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

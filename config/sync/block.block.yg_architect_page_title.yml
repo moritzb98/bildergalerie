@@ -1,4 +1,4 @@
-uuid: 4ea91527-e0de-48fd-a2b8-5e5b90d3b9eb
+uuid: e5b65d55-1249-4a4b-8870-5b5d9319edb1
 langcode: en
 status: true
 dependencies:
@@ -9,12 +9,12 @@ _core:
 id: yg_architect_page_title
 theme: yg_architect
 region: content
-weight: -50
+weight: -7
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: Landschaftsbilder
+  label: 'Page title'
   provider: core
   label_display: '0'
 visibility: {  }
