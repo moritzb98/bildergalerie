@@ -1,8 +1,0 @@
-uuid: ba0bf8e1-7423-4c51-bcbf-5edb63e65913
-langcode: en
-status: true
-dependencies: {  }
-id: tesmenu
-label: Testmenu
-description: ''
-locked: false
