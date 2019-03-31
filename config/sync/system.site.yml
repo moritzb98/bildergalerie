@@ -1,11 +1,11 @@
-uuid: c34c66ff-b544-41d4-8559-e5296b5edec2
-name: Capture
+uuid: fe02626f-2f8c-4eb5-b0e5-bcbf8d47c817
+name: 'Drush Site-Install'
 mail: admin@example.com
-slogan: 'Every picture a diamond'
+slogan: ''
 page:
   403: ''
   404: ''
-  front: /node/17
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

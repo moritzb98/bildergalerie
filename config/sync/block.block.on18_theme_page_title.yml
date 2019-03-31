@@ -1,0 +1,20 @@
+uuid: 86c75876-7e2c-49a9-8c33-b5aa7c5d98d5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - on18_theme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: on18_theme_page_title
+theme: on18_theme
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

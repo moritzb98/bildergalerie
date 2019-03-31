@@ -1,0 +1,25 @@
+uuid: e1d8d5e9-d795-4c0a-a89e-e2b10a6f8f53
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - on18_theme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: on18_theme_branding
+theme: on18_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

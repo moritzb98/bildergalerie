@@ -1,0 +1,20 @@
+uuid: 15ad8b71-c790-49cf-8d6b-b3f670c4ddf9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - on18_theme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: on18_theme_local_actions
+theme: on18_theme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

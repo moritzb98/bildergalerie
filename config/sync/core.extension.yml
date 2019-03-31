@@ -1,6 +1,4 @@
 module:
-  admin_toolbar: 0
-  admin_toolbar_tools: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -19,29 +17,19 @@ module:
   field: 0
   field_ui: 0
   file: 0
-  file_download: 0
   filter: 0
-  form_mode_manager: 0
   help: 0
   history: 0
   image: 0
-  likebtn: 0
   link: 0
   menu_ui: 0
   node: 0
   options: 0
   page_cache: 0
-  particlesjs: 0
-  particlesjs_example: 0
   path: 0
-  photos: 0
-  photos_access: 0
-  plupload: 0
   quickedit: 0
   rdf: 0
   search: 0
-  search_api: 0
-  search_api_db: 0
   shortcut: 0
   system: 0
   taxonomy: 0
@@ -51,17 +39,16 @@ module:
   update: 0
   user: 0
   views_ui: 0
-  votingapi: 0
   menu_link_content: 1
   views: 10
-  opendrupal_drupal_fundamentals: 1000
+  standard: 1000
 theme:
   stable: 0
   classy: 0
   bartik: 0
   seven: 0
   bootstrap: 0
-  capture_theme: 0
-profile: opendrupal_drupal_fundamentals
+  on18_theme: 0
+profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

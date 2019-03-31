@@ -1,0 +1,22 @@
+uuid: 118ddc55-0602-42c8-b68a-3aa932001a19
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - on18_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: on18_theme_help
+theme: on18_theme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,9 +1,8 @@
-uuid: 0e6a191f-4f1c-4a57-8f19-4572f58df45c
+uuid: 04f084a0-eefd-4da8-89f0-befcfa5596ab
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.user.user.field_image
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -21,14 +20,6 @@ content:
     region: content
   contact:
     weight: 5
-    region: content
-  field_image:
-    weight: 7
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
     region: content
   language:
     weight: 0
