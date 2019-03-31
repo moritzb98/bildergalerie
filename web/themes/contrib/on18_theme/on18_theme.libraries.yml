@@ -4,3 +4,4 @@ global-styling:
       css/style.css: {}
   js:
     js/particles.min.js: {}
+    js/script.js: {}
