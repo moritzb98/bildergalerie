@@ -280,7 +280,7 @@ $config_directories = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'vwcRqzaHnM-DtEHbW3I8Iz2PWGKbH5Y1qxqWIHETWA_IIXfV0wslAA3Dy00_HpCw_XZszPOqLw';
+$settings['hash_salt'] = 'N8qE0Y2w0VTfc__rGIpKB1S6XaFHXNyi9z2985vKpiT-j_knG6nuapNtp9j4zwY1bw2KgTaY7A';
 
 /**
  * Deployment identifier.
@@ -774,7 +774,7 @@ $databases['default']['default'] = array (
   'username' => 'root',
   'password' => 'password',
   'prefix' => '',
-  'host' => 'localhost',
+  'host' => '127.0.0.1',
   'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',

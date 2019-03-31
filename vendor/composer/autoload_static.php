@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit151b2a67299312f9385903708b5680e0
+class ComposerStaticInitbb4c62c39e7b3d3385483c6b3b7f8457
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
@@ -27,8 +27,8 @@ class ComposerStaticInit151b2a67299312f9385903708b5680e0
         '0b0974a5566a1077e4f2e111341112c1' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/normalize_server.php',
         '1ca3bc274755662169f9629d5412a1da' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/normalize_uploaded_files.php',
         '40360c0b9b437e69bcbb7f1349ce029e' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/parse_cookie_header.php',
-        'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
+        'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         '952683d815ff0a7bf322b93c0be7e4e4' => __DIR__ . '/..' . '/chi-teck/drupal-code-generator/src/bootstrap.php',
         '5a12a5271c58108e0aa33355e6ac54ea' => __DIR__ . '/..' . '/drupal/console-core/src/functions.php',
         'd511210698f02d87ca48e3972f64323e' => __DIR__ . '/../..' . '/load.environment.php',
@@ -1208,10 +1208,10 @@ class ComposerStaticInit151b2a67299312f9385903708b5680e0
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit151b2a67299312f9385903708b5680e0::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit151b2a67299312f9385903708b5680e0::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit151b2a67299312f9385903708b5680e0::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit151b2a67299312f9385903708b5680e0::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitbb4c62c39e7b3d3385483c6b3b7f8457::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitbb4c62c39e7b3d3385483c6b3b7f8457::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitbb4c62c39e7b3d3385483c6b3b7f8457::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitbb4c62c39e7b3d3385483c6b3b7f8457::$classMap;
 
         }, null, ClassLoader::class);
     }
