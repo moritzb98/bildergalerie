@@ -1,0 +1,20 @@
+uuid: feedacba-81b9-4624-8d49-514892426a9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - particlesjs_example
+  theme:
+    - capture_theme
+id: particlesjsexampleblock
+theme: capture_theme
+region: header
+weight: 0
+provider: null
+plugin: particlesjsexample
+settings:
+  id: particlesjsexample
+  label: ParticlesJsExampleBlock
+  provider: particlesjs_example
+  label_display: '0'
+visibility: {  }

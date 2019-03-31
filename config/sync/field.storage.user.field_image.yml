@@ -1,0 +1,30 @@
+uuid: be41ddf6-a425-4c29-b1e7-7b7bd752268f
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - user
+id: user.field_image
+field_name: field_image
+entity_type: user
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: 21ae7090-5348-4db0-97ae-5f603549da4e
+    alt: Dog
+    title: Dog
+    width: 634
+    height: 951
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

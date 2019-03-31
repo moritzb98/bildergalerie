@@ -1,0 +1,31 @@
+uuid: fae35faa-0dd8-4cc8-8461-596965e12a68
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.photos.body
+    - node.type.photos
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: qAEfpM-XuQS9zElcEG568d0Xox9VrW-_ZfZkc63jxGc
+id: node.photos.teaser
+targetEntityType: node
+bundle: photos
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  comment: true

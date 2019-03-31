@@ -1,0 +1,20 @@
+schemas:
+  bootstrap: 8000
+  capture_theme: 8000
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: 'public://photo-camera.ico'
+  url: 'http://capture.local/themes/contrib/capture_theme/favicon.ico'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://photo-camera (3).png'
+  url: ''
+  use_default: false
+cdn_jsdelivr_theme: superhero
+table_responsive: '-1'
+table: ''

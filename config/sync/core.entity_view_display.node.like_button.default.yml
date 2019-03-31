@@ -1,0 +1,28 @@
+uuid: b4099a6c-d563-4fdd-a1b6-bf6b6182b63d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.like_button.field_likebtn
+    - node.type.like_button
+  module:
+    - likebtn
+    - user
+id: node.like_button.default
+targetEntityType: node
+bundle: like_button
+mode: default
+content:
+  field_likebtn:
+    weight: 101
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: likebtn_formatter
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

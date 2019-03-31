@@ -1,4 +1,4 @@
-uuid: eba6b877-5630-4ac9-ab3d-fa7b5f5ce730
+uuid: 1023eecc-8c31-45f5-a479-0dbe43f7f045
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,6 @@ dependencies:
     - file
     - image
     - node
-_core:
-  default_config_hash: SkXIPKZYiIMMtnBmfnxk58RYfbZ8cHSw5NZPY_JByME
 id: node.field_image
 field_name: field_image
 entity_type: node
@@ -15,11 +13,11 @@ type: image
 settings:
   uri_scheme: public
   default_image:
-    uuid: null
-    alt: ''
-    title: ''
-    width: null
-    height: null
+    uuid: b808a0c0-dd11-4885-9f03-79d6eb6260c0
+    alt: Dog
+    title: Dog
+    width: 634
+    height: 951
   target_type: file
   display_field: false
   display_default: false
@@ -27,8 +25,6 @@ module: image
 locked: false
 cardinality: 1
 translatable: true
-indexes:
-  target_id:
-    - target_id
+indexes: {  }
 persist_with_no_fields: false
 custom_storage: false

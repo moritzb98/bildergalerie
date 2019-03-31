@@ -1,0 +1,13 @@
+uuid: 6b2e5288-27d6-45b7-96e2-99e8352d4020
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - photos
+_core:
+  default_config_hash: 44HoAlBzUotlbf39uEqpZUAMgg7RMYNq2hCZ46YmrQw
+id: comment_photos
+label: 'Comment photos'
+target_entity_type_id: node
+description: 'Allows commenting on images'

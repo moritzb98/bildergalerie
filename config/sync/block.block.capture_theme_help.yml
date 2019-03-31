@@ -1,0 +1,22 @@
+uuid: c5d4ec05-7e4f-4687-a73f-9f22de0cbbd2
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - capture_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: capture_theme_help
+theme: capture_theme
+region: content
+weight: -1
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

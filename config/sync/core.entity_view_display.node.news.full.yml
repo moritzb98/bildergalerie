@@ -1,0 +1,60 @@
+uuid: 9b8e6e57-ab5e-40ea-a42a-7bd58ae261b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.news.body
+    - field.field.node.news.field_image
+    - field.field.node.news.field_like
+    - field.field.node.news.field_path
+    - node.type.news
+  module:
+    - image
+    - likebtn
+    - text
+    - user
+_core:
+  default_config_hash: Jhhe1Vl6AqcU5NTrz9r15vnSu9ltyX49B7eeObbr43w
+id: node.news.full
+targetEntityType: node
+bundle: news
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_like:
+    type: likebtn_formatter
+    weight: 1
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_path:
+    weight: 4
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,15 @@
+name: Particles.JS example
+description: 'Provides a very simple block with Particles.JS. Meant to be a starting base for your custom module.'
+
+type: module
+# core: 8.x
+
+dependencies:
+  - drupal:block
+  - particlesjs
+
+# Information added by Drupal.org packaging script on 2018-03-22
+version: '8.x-1.0-beta2'
+core: '8.x'
+project: 'particlesjs'
+datestamp: 1521678787

@@ -1,4 +1,4 @@
-uuid: 14af516f-8c3e-4340-bee0-be6186cb145c
+uuid: 2712e052-a85c-4f37-b959-c63598d36721
 langcode: en
 status: true
 dependencies: {  }
@@ -12,5 +12,10 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'create news content'
+  - 'delete own news content'
+  - 'edit own news content'
   - 'search content'
-  - 'use text format restricted_html'
+  - 'use node.bild_hochlade form mode'
+  - 'use node.default form mode'
+  - 'use text format filtered_html'

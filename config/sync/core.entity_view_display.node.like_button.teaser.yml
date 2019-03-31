@@ -1,0 +1,20 @@
+uuid: 8971cec2-2655-43d8-81e4-50e44d428530
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.like_button
+  module:
+    - user
+id: node.like_button.teaser
+targetEntityType: node
+bundle: like_button
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

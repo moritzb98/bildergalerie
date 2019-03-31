@@ -1,4 +1,4 @@
-uuid: 9888bd02-e92f-4013-8adf-871c2fb51b7d
+uuid: a726d920-4d70-4ddc-8850-4dfaf40da000
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,6 @@ dependencies:
     - core.entity_view_mode.node.teaser
   module:
     - node
-    - user
 _core:
   default_config_hash: ezK5Dw8P_4bqJdDQIiecSAJak9p1Wf1yDwHzTutGFuQ
 id: frontpage
@@ -22,47 +21,12 @@ display:
   default:
     display_options:
       access:
-        type: perm
-        options:
-          perm: 'access content'
+        type: none
+        options: {  }
       cache:
         type: tag
         options: {  }
-      empty:
-        area_text_custom:
-          admin_label: ''
-          content: 'No front page content has been created yet.<br/>Follow the <a target="_blank" href="https://www.drupal.org/docs/user_guide/en/index.html">User Guide</a> to start building your site.'
-          empty: true
-          field: area_text_custom
-          group_type: group
-          id: area_text_custom
-          label: ''
-          relationship: none
-          table: views
-          tokenize: false
-          plugin_id: text_custom
-        node_listing_empty:
-          admin_label: ''
-          empty: true
-          field: node_listing_empty
-          group_type: group
-          id: node_listing_empty
-          label: ''
-          relationship: none
-          table: node
-          plugin_id: node_listing_empty
-          entity_type: node
-        title:
-          id: title
-          table: views
-          field: title
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          empty: true
-          title: 'Welcome to [site:name]'
-          plugin_id: title
+      empty: {  }
       exposed_form:
         type: basic
         options:
@@ -75,40 +39,40 @@ display:
           sort_desc_label: Desc
       filters:
         promote:
+          id: promote
+          table: node_field_data
+          field: promote
+          relationship: none
+          group_type: group
           admin_label: ''
+          operator: '='
+          value: '1'
+          group: 1
+          exposed: false
           expose:
-            description: ''
-            identifier: ''
-            label: ''
-            multiple: false
-            operator: ''
             operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
             remember: false
+            multiple: false
             remember_roles:
               authenticated: authenticated
-            required: false
-            use_operator: false
-          exposed: false
-          field: promote
-          group: 1
+          is_grouped: false
           group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
             default_group: All
             default_group_multiple: {  }
-            description: ''
             group_items: {  }
-            identifier: ''
-            label: ''
-            multiple: false
-            optional: true
-            remember: false
-            widget: select
-          group_type: group
-          id: promote
-          is_grouped: false
-          operator: '='
-          relationship: none
-          table: node_field_data
-          value: '1'
           plugin_id: boolean
           entity_type: node
           entity_field: promote
@@ -249,7 +213,6 @@ display:
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
       max-age: -1
       tags: {  }
   feed_1:
@@ -261,7 +224,6 @@ display:
       sitename_title: true
       path: rss.xml
       displays:
-        page_1: page_1
         default: ''
       pager:
         type: some
@@ -280,26 +242,10 @@ display:
           relationship: none
           view_mode: rss
       display_extenders: {  }
+      enabled: false
     cache_metadata:
       contexts:
         - 'languages:language_interface'
         - 'user.node_grants:view'
-        - user.permissions
-      max-age: -1
-      tags: {  }
-  page_1:
-    display_options:
-      path: node
-      display_extenders: {  }
-    display_plugin: page
-    display_title: Page
-    id: page_1
-    position: 1
-    cache_metadata:
-      contexts:
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
       max-age: -1
       tags: {  }

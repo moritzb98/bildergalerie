@@ -1,0 +1,26 @@
+uuid: 443b289b-cf1e-4bfc-97d7-f63133f8bbb5
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+  theme:
+    - capture_theme
+id: searchform
+theme: capture_theme
+region: navigation
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Suche
+  provider: search
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '/node/*'
+    negate: false
+    context_mapping: {  }

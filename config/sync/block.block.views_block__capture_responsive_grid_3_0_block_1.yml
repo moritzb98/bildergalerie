@@ -1,0 +1,30 @@
+uuid: c4217968-34f5-4b5d-9c22-e41181ed79f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.capture_responsive_grid_3_0
+  module:
+    - system
+    - views
+  theme:
+    - capture_theme
+id: views_block__capture_responsive_grid_3_0_block_1
+theme: capture_theme
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:capture_responsive_grid_3_0-block_1'
+settings:
+  id: 'views_block:capture_responsive_grid_3_0-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

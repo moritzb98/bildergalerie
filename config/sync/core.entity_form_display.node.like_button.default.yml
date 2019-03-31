@@ -1,0 +1,72 @@
+uuid: c493b3d7-0d02-416b-a4ee-c4e69dcf4a77
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.like_button.field_likebtn
+    - node.type.like_button
+  module:
+    - likebtn
+    - path
+id: node.like_button.default
+targetEntityType: node
+bundle: like_button
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_likebtn:
+    weight: 121
+    settings: {  }
+    third_party_settings: {  }
+    type: likebtn_widget
+    region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

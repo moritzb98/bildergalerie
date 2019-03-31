@@ -1,0 +1,17 @@
+uuid: c4cb5e4e-9fd7-402c-98ac-3e11d0304b77
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+id: capture_db
+name: Capture_DB
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 1
+  matching: words
+  autocomplete:
+    suggest_suffix: true
+    suggest_words: true

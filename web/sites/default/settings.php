@@ -280,7 +280,7 @@ $config_directories = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'N8qE0Y2w0VTfc__rGIpKB1S6XaFHXNyi9z2985vKpiT-j_knG6nuapNtp9j4zwY1bw2KgTaY7A';
+$settings['hash_salt'] = '1pINpgL0_6eqMjkg-KHxSxrBQ9S1NZ6ghurPc1lz6N4Sn_IQfT79RLsb5pFiqQ_9gqv9goDBmQ';
 
 /**
  * Deployment identifier.
@@ -770,12 +770,12 @@ $settings['entity_update_batch_size'] = 50;
 # }
 $config_directories['sync'] = '../config/sync';
 $databases['default']['default'] = array (
-  'database' => 'bildergalerieDB',
+  'database' => 'image_gallery',
   'username' => 'root',
   'password' => 'password',
   'prefix' => '',
-  'host' => '127.0.0.1',
-  'port' => '3306',
+  'host' => 'localhost',
+  'port' => '',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );

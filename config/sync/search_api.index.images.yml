@@ -1,0 +1,50 @@
+uuid: 12790719-60a7-4931-ad15-3270bb8c9f94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image
+    - search_api.server.capture_db
+  module:
+    - node
+    - search_api
+id: images
+name: Images
+description: ''
+read_only: false
+field_settings:
+  field_image:
+    label: image
+    datasource_id: 'entity:node'
+    property_path: field_image
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_image
+  title:
+    label: Title
+    datasource_id: 'entity:node'
+    property_path: title
+    type: string
+    dependencies:
+      module:
+        - node
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  rendered_item: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: capture_db

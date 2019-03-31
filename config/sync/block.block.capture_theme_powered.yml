@@ -1,0 +1,22 @@
+uuid: c3334226-3b28-49e4-900d-ba170384469e
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - capture_theme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: capture_theme_powered
+theme: capture_theme
+region: navigation
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

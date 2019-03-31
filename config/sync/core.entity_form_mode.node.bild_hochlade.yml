@@ -1,0 +1,10 @@
+uuid: 86edb17d-0c70-4dd7-aef9-dcb1d04b4d19
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.bild_hochlade
+label: 'Bild hochladen'
+targetEntityType: node
+cache: true
