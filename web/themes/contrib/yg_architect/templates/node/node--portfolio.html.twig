@@ -1,0 +1,20 @@
+<div id="fh5co-portfolio">
+			<div class="row">
+
+				<div class="col-md-4 col-md-push-8 sticky-parent">
+					<div class="detail" id="sticky_item">
+						<div class="animate-box">
+							<h2>{{ content.field_sub_title.0 }}</h2>
+							<span>{{ content.field_architect_design.0 }}</span>
+							{{ content.field_project_description.0 }}
+							<p><a class="btn btn-primary btn-demo" href="{{ content.field_detail_link[0]['#url']|render }}"></i> {{ content.field_detail_link[0]['#title']|render }}</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-7 col-md-pull-4 image-content">
+					{{  content.field_portfolio_images }} 
+				</div>
+				
+			</div>
+		</div>

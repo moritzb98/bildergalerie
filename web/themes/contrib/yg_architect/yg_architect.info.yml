@@ -1,0 +1,28 @@
+name: YG Hotel
+base theme: classy
+# core: '8.x'
+type: theme
+description: 'A Architect Drupal 8 theme for your Portfolio'
+
+
+
+regions:
+  highlighted: Highlighted
+  header: Header
+  primary_menu: Primary menu
+  slider: slider
+  page_title: page title
+  content: Content
+  footer_col_1: footer first
+  footer_col_2: footer second
+  footer_col_3: footer third
+  footer_col_4: footer four
+
+libraries:
+  - yg_architect/global-styling  
+
+# Information added by Drupal.org packaging script on 2018-10-15
+version: '8.x-1.0'
+core: '8.x'
+project: 'yg_architect'
+datestamp: 1539604085

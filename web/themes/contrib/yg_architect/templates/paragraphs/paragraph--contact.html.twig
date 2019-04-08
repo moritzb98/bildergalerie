@@ -1,0 +1,19 @@
+<div id="fh5co-contact">
+			<div class="row">
+				<div class="col-md-4 animate-box">
+					<h3>{{ content.field_contact_info_title.0 }}</h3>
+					<ul class="contact-info">
+						<li><i class="icon-location4"></i>{{ content.field_contact_location.0 }}</li>
+						<li><i class="icon-phone3"></i><a href="tel:{{ content.field_phone.0 }}">{{ content.field_phone.0 }}</a></li>
+
+						<li><i class="icon-location3"></i><a href="mailto:{{ content.field_mail.0 }}">{{ content.field_mail.0 }}</a></li>
+
+						<li><i class="icon-globe2"></i><a href="{{ content.field_web[
+						0]['#url']|render }}">{{ content.field_web[0]['#title']|render }}</a></li>
+					</ul>
+				</div>
+				<div class="col-md-8 animate-box">
+					{{ content.field_contact_form.0 }}
+				</div>
+			</div>
+		</div>
