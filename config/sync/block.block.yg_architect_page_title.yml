@@ -1,4 +1,4 @@
-uuid: f51a3ffd-929c-4994-affd-878615c41f77
+uuid: 4ea91527-e0de-48fd-a2b8-5e5b90d3b9eb
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Page title'
+  label: Landschaftsbilder
   provider: core
   label_display: '0'
 visibility: {  }

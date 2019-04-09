@@ -1,10 +1,9 @@
-uuid: 0722b411-186d-47d8-8f41-e058a05f2ea2
+uuid: aa9127a3-481f-47c6-bde7-8a2804671a73
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
-    - field.storage.node.field_image
+    - field.storage.node.field_gallery
     - node.type.gallery
   module:
     - image
@@ -12,7 +11,7 @@ dependencies:
     - user
     - views_photo_grid
 id: gallery
-label: gallery
+label: Gallery
 module: views
 description: ''
 tag: ''
@@ -54,7 +53,7 @@ display:
       pager:
         type: full
         options:
-          items_per_page: 15
+          items_per_page: 10
           offset: 0
           id: 0
           total_pages: null
@@ -76,16 +75,14 @@ display:
         type: views_photo_grid
         options:
           grouping: {  }
-          grid_padding: '1'
+          grid_padding: '15'
       row:
-        type: 'entity:node'
-        options:
-          view_mode: teaser
+        type: fields
       fields:
-        field_image:
-          id: field_image
-          table: node__field_image
-          field: field_image
+        field_gallery:
+          id: field_gallery
+          table: node__field_gallery
+          field: field_gallery
           relationship: none
           group_type: group
           admin_label: ''
@@ -183,7 +180,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Gallery
+      title: Landschaftsbilder
       header: {  }
       footer: {  }
       empty: {  }
@@ -199,16 +196,15 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_image'
-  field_gallery:
+        - 'config:field.storage.node.field_gallery'
+  page_1:
     display_plugin: page
-    id: field_gallery
-    display_title: 'Page Gallery'
+    id: page_1
+    display_title: Page
     position: 1
     display_options:
       display_extenders: {  }
       path: gallery
-      display_description: ''
     cache_metadata:
       max-age: -1
       contexts:
@@ -218,4 +214,4 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_image'
+        - 'config:field.storage.node.field_gallery'
